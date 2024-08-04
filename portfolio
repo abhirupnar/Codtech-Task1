@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Rupnar - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css"> </head>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0e349b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-content {
+    flex: 1;
+    text-align: left;
+}
+
+.intro-content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.download-cv, .contact-button, .hire-button {
+    background-color: #7130c7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h2>Hi, I'm Abhijeet Rupnar</h2>
+                <p>A Frontend Developer</p>
+                <p>This is my official portfolio website to showcase all my works related to web development.</p>
+                <button class="download-cv">Download CV</button>
+            </div>
+            <div class="intro-image">
+                <img src="profile-picture.jpg" alt=""> </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Let's connect and discuss your next project.</p>
+            <button class="contact-button">Contact</button>
+        </section>
+
+        <section class="hire">
+            <h2>Hire Me</h2>
+            <p>Looking for a dedicated frontend developer?</p>
+            <button class="hire-button">Hire Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Abhijeet Rupnar</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijeet Rupnar - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css"> </head>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0e349b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-content {
+    flex: 1;
+    text-align: left;
+}
+
+.intro-content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.intro-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.download-cv, .contact-button, .hire-button {
+    background-color: #7130c7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h2>Hi, I'm Abhijeet Rupnar</h2>
+                <p>A Frontend Developer</p>
+                <p>This is my official portfolio website to showcase all my works related to web development.</p>
+                <button class="download-cv">Download CV</button>
+            </div>
+            <div class="intro-image">
+                <img src="profile-picture.jpg" alt=""> </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Let's connect and discuss your next project.</p>
+            <button class="contact-button">Contact</button>
+        </section>
+
+        <section class="hire">
+            <h2>Hire Me</h2>
+            <p>Looking for a dedicated frontend developer?</p>
+            <button class="hire-button">Hire Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Abhijeet Rupnar</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Contact Me</h1>
+            <nav>
+                <a href="index.html" class="text-white">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Creative Contact Section -->
+    <section id="contact" class="bg-blue-600 text-white py-12">
+        <div class="container mx-auto p-4">
+            <h2 class="text-3xl font-bold mb-4 text-center">Get In Touch</h2>
+            <p class="text-center mb-8">
+                I'd love to hear from you! Whether you have a question or just want to say hi, feel free to drop a message.
+            </p>
+            <form id="contact-form" class="max-w-lg mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors duration-300">Submit</button>
+            </form>
+        </div>
+        <div class="container mx-auto p-4 text-center mt-8">
+            <a href="" class="mx-2 text-white hover:text-gray-200"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="" class="mx-2 text-white hover:text-gray-200"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://twitter.com" class="mx-2 text-white hover:text-gray-200"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="" class="mx-2 text-white hover:text-gray-200"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me - Frontend Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #8bb3c4; /* Light gray background */
+            color: #333; /* Dark gray text color */
+        }
+        .header-bg {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        .section-heading {
+            font-size: 2rem; /* Heading font size */
+            font-weight: 700; /* Bold */
+            color: #6d28d9; /* Purple color */
+        }
+        .subheading {
+            font-size: 1.5rem; /* Subheading font size */
+            color: #4b5563; /* Gray color */
+            margin-bottom: 1rem; /* Bottom margin */
+        }
+        .skills-list {
+            list-style-type: none; /* Remove default list styles */
+            padding-left: 0; /* Remove list padding */
+        }
+        .skills-list li {
+            margin-bottom: 0.5rem; /* List item margin */
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid columns */
+            gap: 1.5rem; /* Gap between grid items */
+        }
+        .portfolio-item {
+            background-color: #85bddc; /* White background */
+            padding: 1.5rem; /* Padding for portfolio items */
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 8px; /* Rounded corners */
+            transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .portfolio-item:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+        }
+        .portfolio-item h3 {
+            font-size: 1.5rem; /* Project title font size */
+            color: #6d28d9; /* Purple color */
+            margin-bottom: 0.5rem; /* Bottom margin for title */
+        }
+        .portfolio-item p {
+            color: #4b5563; /* Gray color */
+            margin-top: 0.5rem; /* Top margin for description */
+        }
+        .contact-btn {
+            background-color: #e3e2e0; /* Purple background */
+            color: #ffffff; /* White text color */
+            padding: 0.75rem 2rem; /* Padding for button */
+            border-radius: 999px; /* Rounded button */
+            font-size: 1.1rem; /* Button font size */
+            font-weight: 700; /* Bold button text */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        .contact-btn:hover {
+            background-color: #4c1d95; /* Darker purple on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-bg text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Hire Me - Frontend Developer</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-white hover:text-gray-200">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto my-12 px-4">
+        <section class="mb-8">
+            <h2 class="section-heading text-center">Welcome to My Hire Me Page</h2>
+            <p class="subheading text-center">I'm a frontend developer with a passion for creating engaging user experiences.</p>
+            <p class="text-center">If you're looking for someone to collaborate on your next project or enhance your web presence, I'm here to help!</p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-heading">Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Bootstrap, Tailwind CSS</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-heading">Portfolio Highlights</h2>
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <h3>Project Title 1</h3>
+                    <p>Description of the project. Technologies used: HTML, CSS, JavaScript.</p>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <h3>Project Title 2</h3>
+                    <p>Description of the project. Technologies used: React.js, Tailwind CSS.</p>
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </section>
+
+        <section class="text-center">
+            <a href="contact.html" class="contact-btn inline-block mt-8">Get in Touch</a>
+        </section>
+    </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Projects</h1>
+            <nav>
+                <a href="index.html" class="text-white">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto my-12 p-4">
+        <h2 class="text-3xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold text-blue-600">Project 1</h3>
+                <p>A brief description of the project.</p>
+                <ul class="list-disc list-inside">
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="#" class="text-blue-600">Learn More</a>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold text-blue-600">Project 2</h3>
+                <p>A brief description of the project.</p>
+                <ul class="list-disc list-inside">
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="#" class="text-blue-600">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Projects Section -->
+    <section id="more-projects" class="container mx-auto my-12 p-4">
+        <h2 class="text-3xl font-bold mb-4">More Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold text-blue-600">Project 3</h3>
+                <p>A brief description of the project.</p>
+                <ul class="list-disc list-inside">
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="#" class="text-blue-600">Learn More</a>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold text-blue-600">Project 4</h3>
+                <p>A brief description of the project.</p>
+                <ul class="list-disc list-inside">
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                </ul>
+                <a href="#" class="text-blue-600">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        
+        .skill-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .skill-card h3 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1e3a8a;
+        }
+        .skill-card p {
+            font-size: 1rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Skills</h1>
+            <nav>
+                <a href="index.html" class="text-white">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Creative Skills Section -->
+    <section id="skills" class="bg-gray-200 py-12">
+        <div class="container mx-auto p-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="skill-card">
+                    <h3>Java</h3>
+                    <p>Proficient in building applications using Java.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Spring Boot</h3>
+                    <p>Experienced in creating microservices with Spring Boot.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>Skilled in designing responsive web pages.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Capable of developing dynamic front-end applications.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>SQL</h3>
+                    <p>Adept at writing and optimizing SQL queries.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Proficient in version control with Git.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', function () {
+        navMenu.classList.toggle('hidden');
+    });
+
+    // Contact form submission
+    const contactForm = document.getElementById('contact-form');
+    contactForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+
+        if (name && email && message) {
+            alert('Thank you for your message! We will get back to you soon.');
+            contactForm.reset();
+        } else {
+            alert('Please fill in all fields before submitting.');
+        }
+    });
+});
